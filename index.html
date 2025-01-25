@@ -1,60 +1,193 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Frikiverse Prime</title>
-</head>
-<body>
- <div>
-    <img src="./img/logo.png" width="6%" height="6%" alt="Frikiverse Prime" />
-    <h1>Frikiverse Prime - Carolina Cardozo Britez</h1>
- </div>
-    <h2>Tu universo geek, siempre al alcance</h2>
-    <p>Explora las mejores películas, series y contenido exclusivo para verdaderos fanáticos del cine y la cultura friki.</p> 
-    <h3>Categorías</h3>
-<ul>
-    <li>
-        <h2><a href="cienciaficcion.html">Ciencia ficción</a></h2>
-        <img src="./img/cienciaficcion.jpg" alt="Ciencia ficción" width="100" height="100" />
-    </li>
-    <li>
-        <h2><a href="comedia.html">Comedia</a></h2>
-        <img src="./img/comedia.jpg" alt="Comedia" width="100" height="100" />
-    </li>
-    <li>
-        <h2><a href="animacion.html">Animación</a></h2>
-        <img src="./img/animacion.jpg" alt="Animación" width="100" height="100" />
-    </li>
-    <li>
-        <h2><a href="terror.html">Terror</a></h2>
-        <img src="./img/terror.jpg" alt="Terror" width="100" height="100" />
-    </li>
-</ul>
-<h4>Próximos lanzamientos</h4>
-<table border="1">
-    <tr>
-        <td>
-            <img src="./img/lilo-y-stitch.jpg" alt="Lilo y Stitch" width="150" /><br />
-            <strong>Lilo y Stitch</strong><br />
-            <a href="https://www.imdb.com/title/tt11655566/?ref_=rlm">Ver</a>
-        </td>
-        <td>
-            <img src="./img/kraven-el-cazador.jpg" alt="Kraven el cazador" width="150" /><br />
-            <strong>Kraven el cazador</strong><br />
-            <a href="https://www.imdb.com/title/tt8790086/?ref_=rlm">Ver</a>
-        </td>
-        <td>
-            <img src="./img/mufasa.jpg" alt="Mufasa" width="150" /><br />
-            <strong>Mufasa</strong><br />
-            <a href="https://www.imdb.com/title/tt13186482/?ref_=rlm">Ver</a>
-        </td>
-    </tr>
-</table>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <title>Frikiverse Prime</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <img
+          src="./img/logo.png"
+          width="6%"
+          height="6%"
+          alt="Frikiverse Prime"
+        />
+        <h1>Frikiverse Prime - Carolina Cardozo Britez</h1>
+        <h2>Tu universo geek, siempre al alcance</h2>
 
-<p><cite>Frikiverse Prime</cite></p>
-    <div>
+        <p>
+          Explora las mejores películas, series y contenido exclusivo para
+          verdaderos fanáticos del cine y la cultura friki.
+        </p>
+        <nav class="category-bar">
+          <ul>
+            <li><a href="cienciaficcion.html">Ciencia Ficción</a></li>
+            <li><a href="comedia.html">Comedia</a></li>
+            <li><a href="animacion.html">Animación</a></li>
+            <li><a href="terror.html">Terror</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="central">
+        <div>
+          <h3>TOP Películas</h3>
+          <table>
+            <tr>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/toy-story.jpg"
+                    alt="Toy Story"
+                    width="150"
+                  /><br />
+                  <strong>Toy Story</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/shrek.jpg"
+                    alt="Shrek"
+                    width="150"
+                  /><br />
+                  <strong>Shrek</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/parks-and-rec.jpg"
+                    alt="Parks and Recreation"
+                    width="150"
+                  /><br />
+                  <strong>Parks and Recreation</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/it.jpg"
+                    alt="IT"
+                    width="150"
+                  /><br />
+                  <strong>IT</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/friends.jpg"
+                    alt="Friends"
+                    width="150"
+                  /><br />
+                  <strong>Friends</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/hereditary.jpg"
+                    alt="Hereditary"
+                    width="150"
+                  /><br />
+                  <strong>Hereditary</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/frozen.jpg"
+                    alt="Frozen"
+                    width="150"
+                  /><br />
+                  <strong>Frozen</strong><br />
+                </article>
+              </td>
+              <td>
+                <article class="card">
+                  <img
+                    src="./img/categorias/interstellar.jpg"
+                    alt="Interstellar"
+                    width="150"
+                  /><br />
+                  <strong>Interstellar</strong><br />
+                </article>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <h3>Próximos lanzamientos</h3>
+          <table>
+            <tr>
+              <td>
+                <img
+                  src="./img/lilo-y-stitch.jpg"
+                  alt="Lilo y Stitch"
+                  width="150"
+                /><br />
+                <strong>Lilo y Stitch</strong><br />
+                <button>
+                  <a
+                    href="https://www.imdb.com/title/tt11655566/?ref_=rlm"
+                    target="_blank"
+                    >Ver</a
+                  >
+                </button>
+              </td>
+              <td>
+                <img
+                  src="./img/kraven-el-cazador.jpg"
+                  alt="Kraven el cazador"
+                  width="150"
+                /><br />
+                <strong>Kraven el cazador</strong><br />
+                <button>
+                  <a
+                    href="https://www.imdb.com/title/tt8790086/?ref_=rlm"
+                    target="_blank"
+                    >Ver</a
+                  >
+                </button>
+              </td>
+              <td>
+                <img src="./img/mufasa.jpg" alt="Mufasa" width="150" /><br />
+                <strong>Mufasa</strong><br />
+                <button>
+                  <a
+                    href="https://www.imdb.com/title/tt13186482/?ref_=rlm"
+                    target="_blank"
+                    >Ver</a
+                  >
+                </button>
+              </td>
+              <td>
+                <img
+                  src="./img/blancanieves.jpg"
+                  alt="Blancanieves"
+                  width="150"
+                /><br />
+                <strong>Blancanieves</strong><br />
+                <button>
+                  <a
+                    href="https://www.imdb.com/es/title/tt6208148/?ref_=tt_mv_close"
+                    target="_blank"
+                    >Ver</a
+                  >
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <footer>
+        <p><cite>Frikiverse Prime</cite></p>
         <p><a href="contacto.html">Contacto</a></p>
+        <p>&copy; 2025 Frikiverse Prime. Todos los derechos reservados.</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
