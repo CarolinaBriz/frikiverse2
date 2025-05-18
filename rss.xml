@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Frikiverse 2</title>
+    <link>https://carolinabriz.github.io/frikiverse2/</link>
+    <description>Actualizaciones del sitio Frikiverse 2</description>
+    <language>es</language>
+
+    <item>
+      <title>Inicio</title>
+      <link>https://carolinabriz.github.io/frikiverse2/</link>
+      <description>Página principal de Frikiverse 2</description>
+    </item>
+
+    <item>
+      <title>Sección de Noticias</title>
+      <link>https://carolinabriz.github.io/frikiverse2/noticias.html</link>
+      <description>Últimas noticias del universo friki</description>
+    </item>
+
+    <item>
+      <title>Galería</title>
+      <link>https://carolinabriz.github.io/frikiverse2/galeria.html</link>
+      <description>Explora imágenes y contenido visual friki</description>
+    </item>
+
+  </channel>
+</rss>
